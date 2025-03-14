@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=swap');
 
+.tarjeta {
+    display: flex;
+    justify-content: center;
+}
 body {
     background-color: beige;
 }
@@ -26,4 +30,16 @@ body {
 
 .card h2{
     font-size: 15px;
+}
+.card:hover{
+    background-color: rgb(167, 62, 120);
+    transform: scale(1.05);
+}
+.card .footer{
+    padding: 25px;
+    text-align: center;
+}
+.footer a{
+    text-decoration: none;
+    color: black;
 }
